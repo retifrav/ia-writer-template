@@ -1,6 +1,6 @@
 # ia-writer-template
 
-My iA Writer template:
+My [template](https://ia.net/writer/templates) for [iA Writer](https://ia.net/writer):
 
 ![iA Writer template](/screenshot.png?raw=true)
 
@@ -13,4 +13,3 @@ So, it's just:
 - a bit nicer margins for headers
 - a bit better styles for code blocks
 - other smaller improvements
-- 
