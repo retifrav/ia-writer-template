@@ -1,0 +1,106 @@
+html {
+    background-color: white;
+}
+
+body {
+    width: 90%;
+    margin: 30px auto;
+    font: 16px Verdana;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0 0 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #555;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 30px 0 25px;
+}
+h3 {
+    font-size: 1.17em;
+    margin: 25px 0 20px;
+}
+h4 {
+    font-size: 1.12em;
+    margin: 20px 0 15px;
+}
+h5 {
+    font-size: .83em;
+    margin: 15px 0 10px;
+}
+h6 {
+    font-size: .75em;
+    margin: 10px 0 5px;
+}
+
+p, blockquote, ul, ol {
+    margin: 15px 0;
+}
+ul ul {
+    margin: 0;
+}
+li {
+    margin-top: 3px;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+pre {
+    font-family: "Courier New", Courier, monospace;
+    margin: 10px 0 0;
+    padding: 10px 12px;
+    border-radius: 0.5em;
+    background: #f8f8f8;
+}
+code {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #f8f8f8;
+    padding: 2px 4px;
+    border-radius: 0.25em;
+}
+pre > code {
+    background: initial;
+}
+
+blockquote {
+    margin-left: 30px;
+    padding: 0 15px;
+    border-left: 0.25em solid darkgrey;
+}
+blockquote * {
+    font-style: italic;
+}
+
+figure {
+    display: block;
+    margin-block-start: initial;
+    margin-block-end: initial;
+    margin-inline-start: initial;
+    margin-inline-end: initial;
+}
+img {
+    max-width: 100%;
+}
+
+body.footer {
+    text-align: right;
+    color: red;
+}
+body.footer > p,
+body.footer > p > span {
+    font: 10px Verdana;
+    color: black;
+}
